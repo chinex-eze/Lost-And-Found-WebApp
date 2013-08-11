@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/25/LostFound/ext-jars
+END
+mailapi-1.4.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/LostFound/ext-jars/mailapi-1.4.4.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/25/LostFound/ext-jars/activation.jar
+END
+smtp-1.4.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/25/LostFound/ext-jars/smtp-1.4.4.jar
+END
+simple-java-mail-v2.1-src.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/25/LostFound/ext-jars/simple-java-mail-v2.1-src.jar
+END
+log4j-1.2.15.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/25/LostFound/ext-jars/log4j-1.2.15.jar
+END

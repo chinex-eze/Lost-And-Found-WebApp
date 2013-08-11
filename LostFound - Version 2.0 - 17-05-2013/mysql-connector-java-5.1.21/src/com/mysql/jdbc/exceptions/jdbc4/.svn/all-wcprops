@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4
+END
+MySQLInvalidAuthorizationSpecException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLInvalidAuthorizationSpecException.java
+END
+MySQLNonTransientException.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientException.java
+END
+MySQLTimeoutException.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTimeoutException.java
+END
+MySQLTransactionRollbackException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTransactionRollbackException.java
+END
+MySQLSyntaxErrorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLSyntaxErrorException.java
+END
+MySQLTransientConnectionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientConnectionException.java
+END
+MySQLTransientException.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientException.java
+END
+MySQLDataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLDataException.java
+END
+CommunicationsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/CommunicationsException.java
+END
+MySQLIntegrityConstraintViolationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLIntegrityConstraintViolationException.java
+END
+MySQLNonTransientConnectionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientConnectionException.java
+END

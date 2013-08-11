@@ -1,0 +1,737 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc
+END
+AssertionFailedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/AssertionFailedException.java
+END
+JDBC4CommentClientInfoProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4CommentClientInfoProvider.java
+END
+SequentialBalanceStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/SequentialBalanceStrategy.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Constants.java
+END
+OperationNotSupportedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/OperationNotSupportedException.java
+END
+ConnectionGroupManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ConnectionGroupManager.java
+END
+DatabaseMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/DatabaseMetaData.java
+END
+WatchableOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/WatchableOutputStream.java
+END
+Driver.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Driver.java
+END
+JDBC4MySQLConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4MySQLConnection.java
+END
+JDBC4PreparedStatementHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4PreparedStatementHelper.java
+END
+DocsConnectionPropsHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/DocsConnectionPropsHelper.java
+END
+MysqlErrorNumbers.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/MysqlErrorNumbers.java
+END
+JDBC4ClientInfoProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4ClientInfoProvider.java
+END
+JDBC4DatabaseMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4DatabaseMetaData.java
+END
+CharsetMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/CharsetMapping.java
+END
+ExportControlled.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ExportControlled.java
+END
+JDBC4ClientInfoProviderSP.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4ClientInfoProviderSP.java
+END
+Extension.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Extension.java
+END
+Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Connection.java
+END
+JDBC4CallableStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4CallableStatement.java
+END
+ConnectionPropertiesTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ConnectionPropertiesTransform.java
+END
+RowDataDynamic.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/RowDataDynamic.java
+END
+RowDataCursor.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/RowDataCursor.java
+END
+SQLError.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/SQLError.java
+END
+EscapeTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/EscapeTokenizer.java
+END
+ExceptionInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ExceptionInterceptor.java
+END
+PerConnectionLRUFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/PerConnectionLRUFactory.java
+END
+LicenseConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/LicenseConfiguration.java
+END
+LoadBalancedMySQLConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/LoadBalancedMySQLConnection.java
+END
+StatementInterceptorV2.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/StatementInterceptorV2.java
+END
+ConnectionProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ConnectionProperties.java
+END
+MysqlSavepoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/MysqlSavepoint.java
+END
+ProfilerEventHandlerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ProfilerEventHandlerFactory.java
+END
+MysqlDefs.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/MysqlDefs.java
+END
+NdbLoadBalanceExceptionChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/NdbLoadBalanceExceptionChecker.java
+END
+BlobFromLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/BlobFromLocator.java
+END
+ServerPreparedStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ServerPreparedStatement.java
+END
+StatementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/StatementImpl.java
+END
+TimeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/TimeUtil.java
+END
+EscapeProcessorResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/EscapeProcessorResult.java
+END
+JDBC4UpdatableResultSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4UpdatableResultSet.java
+END
+MysqlIO.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/MysqlIO.java
+END
+NotUpdatable.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/NotUpdatable.java
+END
+SocketMetadata.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/SocketMetadata.java
+END
+StandardLoadBalanceExceptionChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/StandardLoadBalanceExceptionChecker.java
+END
+BestResponseTimeBalanceStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/BestResponseTimeBalanceStrategy.java
+END
+Blob.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Blob.java
+END
+CacheAdapterFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/CacheAdapterFactory.java
+END
+Clob.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Clob.java
+END
+OutputStreamWatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/OutputStreamWatcher.java
+END
+BufferRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/BufferRow.java
+END
+Field.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Field.java
+END
+JDBC4LoadBalancedMySQLConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4LoadBalancedMySQLConnection.java
+END
+MiniAdmin.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/MiniAdmin.java
+END
+CallableStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/CallableStatement.java
+END
+SocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/SocketFactory.java
+END
+Charsets.properties
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Charsets.properties
+END
+JDBC4ServerPreparedStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4ServerPreparedStatement.java
+END
+StatementInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/StatementInterceptor.java
+END
+MysqlDataTruncation.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/MysqlDataTruncation.java
+END
+ResultSetRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ResultSetRow.java
+END
+CachedResultSetMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/CachedResultSetMetaData.java
+END
+CommunicationsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/CommunicationsException.java
+END
+JDBC4MysqlSQLXML.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4MysqlSQLXML.java
+END
+ResultSetInternalMethods.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ResultSetInternalMethods.java
+END
+NoSubInterceptorWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/NoSubInterceptorWrapper.java
+END
+RandomBalanceStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/RandomBalanceStrategy.java
+END
+AuthenticationPlugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/AuthenticationPlugin.java
+END
+DatabaseMetaDataUsingInfoSchema.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/DatabaseMetaDataUsingInfoSchema.java
+END
+WriterWatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/WriterWatcher.java
+END
+V1toV2StatementInterceptorAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/V1toV2StatementInterceptorAdapter.java
+END
+ResultSetImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ResultSetImpl.java
+END
+RowData.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/RowData.java
+END
+NonRegisteringReplicationDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/NonRegisteringReplicationDriver.java
+END
+ConnectionGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ConnectionGroup.java
+END
+StringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/StringUtils.java
+END
+ConnectionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ConnectionImpl.java
+END
+FailoverConnectionProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/FailoverConnectionProxy.java
+END
+LoadBalanceExceptionChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/LoadBalanceExceptionChecker.java
+END
+PacketTooBigException.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/PacketTooBigException.java
+END
+NonRegisteringDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/NonRegisteringDriver.java
+END
+StandardSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/StandardSocketFactory.java
+END
+JDBC4PreparedStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4PreparedStatement.java
+END
+JDBC4Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4Connection.java
+END
+ReplicationDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ReplicationDriver.java
+END
+IterateBlock.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/IterateBlock.java
+END
+ConnectionPropertiesImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ConnectionPropertiesImpl.java
+END
+JDBC4DatabaseMetaDataUsingInfoSchema.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4DatabaseMetaDataUsingInfoSchema.java
+END
+NamedPipeSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/NamedPipeSocketFactory.java
+END
+BalanceStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/BalanceStrategy.java
+END
+NotImplemented.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/NotImplemented.java
+END
+Statement.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Statement.java
+END
+UpdatableResultSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/UpdatableResultSet.java
+END
+CacheAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/CacheAdapter.java
+END
+JDBC4ResultSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4ResultSet.java
+END
+Messages.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Messages.java
+END
+ReplicationConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ReplicationConnection.java
+END
+ByteArrayRow.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ByteArrayRow.java
+END
+CompressedInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/CompressedInputStream.java
+END
+LocalizedErrorMessages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/LocalizedErrorMessages.properties
+END
+SingleByteCharsetConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/SingleByteCharsetConverter.java
+END
+PingTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/PingTarget.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Util.java
+END
+ConnectionFeatureNotAvailableException.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ConnectionFeatureNotAvailableException.java
+END
+Buffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Buffer.java
+END
+MySQLConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/MySQLConnection.java
+END
+Security.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/Security.java
+END
+ReflectiveStatementInterceptorAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ReflectiveStatementInterceptorAdapter.java
+END
+LoadBalancingConnectionProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/LoadBalancingConnectionProxy.java
+END
+WatchableWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/WatchableWriter.java
+END
+ConnectionLifecycleInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ConnectionLifecycleInterceptor.java
+END
+NetworkResources.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/NetworkResources.java
+END
+ParameterBindings.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ParameterBindings.java
+END
+MysqlParameterMetadata.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/MysqlParameterMetadata.java
+END
+StreamingNotifiable.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/StreamingNotifiable.java
+END
+ResultSetMetaData.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/ResultSetMetaData.java
+END
+PreparedStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/PreparedStatement.java
+END
+RowDataStatic.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/RowDataStatic.java
+END
+EscapeProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/EscapeProcessor.java
+END
+JDBC4NClob.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/JDBC4NClob.java
+END
+LoadBalancedAutoCommitInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/LoadBalancedAutoCommitInterceptor.java
+END

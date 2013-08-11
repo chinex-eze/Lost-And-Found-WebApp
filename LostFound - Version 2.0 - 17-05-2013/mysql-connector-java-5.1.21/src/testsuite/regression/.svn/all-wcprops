@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression
+END
+BlobRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/BlobRegressionTest.java
+END
+AppletRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/AppletRegressionTest.java
+END
+PooledConnectionRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/PooledConnectionRegressionTest.java
+END
+CallableStatementRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/CallableStatementRegressionTest.java
+END
+StressRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/StressRegressionTest.java
+END
+EscapeProcessorRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/EscapeProcessorRegressionTest.java
+END
+StringRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/StringRegressionTest.java
+END
+MetaDataRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/MetaDataRegressionTest.java
+END
+StatementRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/StatementRegressionTest.java
+END
+MicroPerformanceRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/MicroPerformanceRegressionTest.java
+END
+NumbersRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/NumbersRegressionTest.java
+END
+CachedRowsetTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/CachedRowsetTest.java
+END
+SubqueriesRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/SubqueriesRegressionTest.java
+END
+DataSourceRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/DataSourceRegressionTest.java
+END
+ResultSetRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/ResultSetRegressionTest.java
+END
+ConnectionRegressionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/regression/ConnectionRegressionTest.java
+END

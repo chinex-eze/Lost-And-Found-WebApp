@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util
+END
+ReadAheadInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util/ReadAheadInputStream.java
+END
+ServerController.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util/ServerController.java
+END
+PropertiesDocGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util/PropertiesDocGenerator.java
+END
+TimezoneDump.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util/TimezoneDump.java
+END
+ErrorMappingsDocGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util/ErrorMappingsDocGenerator.java
+END
+BaseBugReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util/BaseBugReport.java
+END
+ResultSetUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util/ResultSetUtil.java
+END
+VersionFSHierarchyMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util/VersionFSHierarchyMaker.java
+END
+LRUCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/util/LRUCache.java
+END

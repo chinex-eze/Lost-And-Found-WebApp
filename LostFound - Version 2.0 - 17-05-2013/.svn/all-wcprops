@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/2/LostFound
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/3/LostFound/.project
+END
+mysql-connector-java-5.1.21-bin.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21-bin.jar
+END
+sql_notes_and_others.txt
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/26/LostFound/sql_notes_and_others.txt
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/26/LostFound/.classpath
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/profiler
+END
+ProfilerEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/profiler/ProfilerEventHandler.java
+END
+LoggingProfilerEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/profiler/LoggingProfilerEventHandler.java
+END
+ProfilerEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/profiler/ProfilerEvent.java
+END

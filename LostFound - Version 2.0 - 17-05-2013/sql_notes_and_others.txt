@@ -1,0 +1,238 @@
+---first create the database
+create DATABASE IF NOT EXISTS lostfounddb; 
+
+---then create the table for the  Items 
+create TABLE IF NOT EXISTS tbl_item( 
+    id 					INT NOT NULL AUTO_INCREMENT, 
+	ItemName    		VARCHAR(20) NOT NULL, 
+	--ColorCode			CHAR(7), 		---e.g. #170B3B 
+	--Brand				VARCHAR(20), 
+	Description			VARCHAR(160), 
+	--DateOfLoss			DATE, 
+	vehicle_id			VARCHAR(100), 
+	City				INT, 		
+	StorageLocation 	INT, 
+	DateOfAcceptance	DATE, 
+	FoundCode			CHAR(10) UNIQUE, 
+	Returned			INT, 
+	
+	PRIMARY KEY(id),  
+	FOREIGN KEY (City) REFERENCES tbl_city(id),  
+	FOREIGN KEY (StorageLocation) REFERENCES tbl_storage(id), 
+	FOREIGN KEY (Returned) REFERENCES tbl_Returned(id)
+)ENGINE=innodb, CHARACTER SET utf8;	
+
+create TABLE IF NOT EXISTS tbl_request( 
+	id 					SERIAL, 
+	item_name			VARCHAR(20) NOT NULL, 
+	description			VARCHAR(160), 
+	date_of_loss		DATE, 
+	vehicle_id			VARCHAR(100), 
+	city				INT, 
+	date_created		DATE DEFAULT NULL, 
+	matched				INT DEFAULT NULL, 
+	
+	PRIMARY KEY(id),  
+	CONSTRAINT fk_req_city FOREIGN KEY (city) REFERENCES tbl_city(id)  
+		ON UPDATE CASCADE ON DELETE NO ACTION 
+	CONSTRAINT fk_req_item FOREIGN KEY (matched) REFERENCES tbl_item(id) 
+		ON UPDATE SET NULL ON DELETE SET NULL  		
+)ENGINE=innodb, CHARACTER SET utf8;	
+
+/**
+create TABLE IF NOT EXISTS TBClient( 
+	id 					INT NOT NULL AUTO_INCREMENT, 
+	FirstNames			VARCHAR(30)	NOT NULL, 
+	LastName			VARCHAR(30), 
+	Email				VARCHAR(30), 
+	PhoneNumber			VARCHAR(15), 
+	Item				INT NOT NULL,
+	
+	PRIMARY KEY(id),  
+	FOREIGN KEY (Item) REFERENCES TBItem(id) 
+)ENGINE=innodb, CHARACTER SET utf8;  
+*/
+ 
+ --SELECT SUBSTRING(MD5(RAND()) FROM 1 FOR 10) 
+ DELIMITER // 
+ CREATE TRIGGER lostfounddb.before_insert_tbl_item   
+    BEFORE INSERT ON tbl_item FOR EACH ROW  
+    BEGIN   
+		IF NEW.FoundCode IS NULL 
+		THEN 
+			SET NEW.FoundCode = SUBSTRING(MD5(RAND()) FROM 1 FOR 10); 
+		END IF; 
+    END 
+DELIMITER ;  
+
+ DELIMITER // 
+ CREATE TRIGGER lostfounddb.before_insert_tbl_request   
+    BEFORE INSERT ON tbl_request FOR EACH ROW  
+    BEGIN   
+		IF NEW.date_created IS NULL 
+		THEN 
+			SET NEW.date_created = NOW(); 
+		END IF; 
+    END 
+DELIMITER ; 
+
+create TABLE IF NOT EXISTS tbl_client( 
+	id 					INT NOT NULL AUTO_INCREMENT, 
+	FirstNames			VARCHAR(30)	NOT NULL, 
+	LastName			VARCHAR(30), 
+	Email				VARCHAR(30), 
+	PhoneNumber			VARCHAR(15), 
+	request				BIGINT UNSIGNED NOT NULL, 
+	
+	PRIMARY KEY(id),  
+	CONSTRAINT fk_req FOREIGN KEY (request) REFERENCES tbl_request(id) 
+		ON UPDATE CASCADE ON DELETE CASCADE 
+)ENGINE=innodb, CHARACTER SET utf8;  
+
+
+create TABLE IF NOT EXISTS tbl_admin_user(
+	id 					INT NOT NULL AUTO_INCREMENT, 
+	FirstNames			VARCHAR(30)	NOT NULL, 
+	LastName			VARCHAR(30) NOT NULL, 
+	UserName			VARCHAR(30) NOT NULL UNIQUE,  
+	Password			VARCHAR(30), 
+	Location			INT, 			--reference to TBCity id
+	AdminLevel 			INT NOT NULL, 	--reference to TBAdminLevel id
+	
+	PRIMARY KEY(id),  
+	FOREIGN KEY (Location) REFERENCES tbl_city(id), 
+	FOREIGN KEY (AdminLevel) REFERENCES tbl_admin_level(id) 
+)ENGINE=innodb, CHARACTER SET utf8;  
+
+
+
+create TABLE IF NOT EXISTS tbl_city( 
+	id 					INT NOT NULL AUTO_INCREMENT,  
+	Description			VARCHAR(20), 
+	
+	PRIMARY KEY(id) 
+)ENGINE=innodb, CHARACTER SET utf8;  
+
+
+
+create TABLE IF NOT EXISTS tbl_admin_level(
+	id					INT NOT NULL AUTO_INCREMENT,  
+	Description			VARCHAR(20),  
+	
+	PRIMARY KEY(id) 
+)ENGINE=innodb, CHARACTER SET utf8;  
+
+
+create TABLE IF NOT EXISTS tbl_storage( 
+	id					INT NOT NULL AUTO_INCREMENT,  
+	Description			VARCHAR(20),  
+	City				INT,  
+	
+	PRIMARY KEY(id),  
+	FOREIGN KEY (City) REFERENCES tbl_city(id) 
+)ENGINE=innodb, CHARACTER SET utf8;  
+
+
+create TABLE IF NOT EXISTS tbl_Returned( 
+	id					INT NOT NULL AUTO_INCREMENT,  
+	Description			CHAR(5),  
+	
+	PRIMARY KEY(id) 
+)ENGINE=innodb, CHARACTER SET utf8;  
+
+
+
+									/* ** USER THINGY'S ***/ 
+---this user represents the application 
+create USER 'lostFoundAPP'@'localhost' IDENTIFIED BY 'lf080'; 
+
+---grant user necessary priviledges on the tables on the database 
+---user has read and write access to TBItem and TBClient but only read access to 
+---lookup tables e.g. TBCity and TBStorage   
+GRANT SELECT, DELETE, UPDATE, INSERT ON lostfounddb.TBItem
+		TO 'lostFoundAPP'@'localhost' IDENTIFIED BY 'lf080';  
+GRANT SELECT, DELETE, UPDATE, INSERT ON lostfounddb.TBClient
+		TO 'lostFoundAPP'@'localhost' IDENTIFIED BY 'lf080'; 
+		
+GRANT SELECT ON lostfounddb.TBStorage
+		TO 'lostFoundAPP'@'localhost' IDENTIFIED BY 'lf080';  
+GRANT SELECT ON lostfounddb.TBCity 
+		TO 'lostFoundAPP'@'localhost' IDENTIFIED BY 'lf080';  
+GRANT SELECT ON lostfounddb.tbl_Returned 
+		TO 'lostFoundAPP'@'localhost' IDENTIFIED BY 'lf080';  
+		
+---then the super user who has privileges to every table in the database 
+GRANT SELECT, INSERT, DELETE, UPDATE ON lostfounddb.*  
+		TO 'LFSuper'@'localhost' IDENTIFIED BY 'lfS080';
+
+FLUSH PRIVILEGES; 
+
+
+--because the Vaadin framework only allows the use of a single table at a time for creating a 
+--table query object, a view is created here to 'act' as a single table from which certain 
+--operations would be carried out...
+CREATE OR REPLACE VIEW vw_Item AS 
+	SELECT 
+		ItemName, ColorCode, Brand, TBItem.Description as ItemDescription, 
+		DateOfLoss, BusNumber, DateOfAcceptance, tbl_Returned.Description as ReturnStatus,   
+		FoundCode, TBCity.Description as CityName, TBStorage.Description as StoragePlace  
+	FROM 
+		TBItem, TBCity, TBStorage, tbl_Returned 
+	WHERE 
+		TBItem.City = TBCIty.id and TBItem.StorageLocation = TBStorage.id and 
+		TBItem.Returned = tbl_Returned.id;  
+		
+		
+--some sample and real data 
+--TBCity 
+INSERT INTO TBCity(Description)
+	VALUES("Turku"), ("Tampere"), ("Helsinki"), ("Raisio"), ("Espoo"); 
+	
+---TBAdminLevel 
+INSERT INTO TBAdminLevel(id, Description)
+	VALUES(1, "Super Admin"); 		---this is highes level 
+INSERT INTO TBAdminLevel(Description)
+	VALUES("General Admin");  
+	
+---TBStorage 
+INSERT INTO TBStorage(Description, City) 
+	VALUES("Shelf001", 1), ("Location 5", 3), ("Cupboard5", 2), 
+		("Shelf056", 1), ("Position909", 3), ("Shelf50A", 2),
+		("Location&AB", 1), ("Cupboard89", 3), ("Shelf780", 2), 
+		("Room45X", 1), ("Room089", 3), ("Shelf12A", 2),
+		("Location 45D", 1), ("Desk909", 3), ("Store78", 2);  
+		
+
+--TBAdminUser		
+INSERT INTO TBAdminUser(FirstNames, LastName, UserName, Password, Location, AdminLevel)
+	VALUES("Prince", "Eze", "prince_Nedu", "pNE080", 1, 1),		
+		("Princess", "NJ", "princess_am", "ang010", 1, 2), 
+		("Aatuka", "Kokkonen", "atuski", "ATK101", 2, 2),
+		("Rex", "Kene", "rekesh", "kesh343", 3, 2); 
+		
+INSERT INTO TBItem(ItemName, ColorCode, Brand, Description, DateOfLoss, BusNumber, 
+			City, StorageLocation, DateOfAcceptance, FoundCode)
+	VALUES("Wallet", "#170B3B", "D&G", "A little description", null, "2A", 
+			1, 1, null, "OP82K"),
+		("Jacket", "#170B3B", "Gucci", "A little description", null, "4", 
+			1, 1, null, "OP82Q"),
+		("Phone", "#170B3B", "Nokia", "A little description", null, "11", 
+			1, 1, null, null),
+		("Umbrella", "#170B3B", "Esprit", "A little description", null, "3", 
+			1, 1, null, "OP95B"),
+		("Purse", "#170B3B", "D&G", "A little description", null, "420", 
+			1, 1, null, null),
+		("Brief case", "#170B3B", "Bizness", "My business brief case", null, "42", 
+			1, 1, null, null); 
+
+			
+INSERT INTO TBClient(FirstNames, LastName, Email, PhoneNumber, Item)
+	VALUES("Rachael Banks", "Peabbo", "rachael@biz.fi", "0465615791", 5),
+		("Kevwe", "Richards", "richie@biz.fi", "0465615791", 2),
+		("Mikko", "Ahonen", "aho@biz.fi", "0465615791", 1),
+		("Helene", "Boss", "helike@biz.fi", "0465615791", 2),
+		("Mike", "Reeves", "mikey@biz.fi", "0465615791", 3); 
+		
+		
+INSERT INTO tbl_Returned(Description)
+	VALUES("NO"), ("YES"); 

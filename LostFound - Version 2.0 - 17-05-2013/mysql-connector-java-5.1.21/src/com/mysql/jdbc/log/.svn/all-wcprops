@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/log
+END
+LogUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/log/LogUtils.java
+END
+StandardLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/log/StandardLogger.java
+END
+NullLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/log/NullLogger.java
+END
+LogFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/log/LogFactory.java
+END
+Jdk14Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/log/Jdk14Logger.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/log/Log.java
+END
+Slf4JLogger.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/log/Slf4JLogger.java
+END

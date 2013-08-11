@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/22/LostFound/src/org/codemonkey/vesijama
+END
+EmailAddressValidationCriteria.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/22/LostFound/src/org/codemonkey/vesijama/EmailAddressValidationCriteria.java
+END
+Email.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/22/LostFound/src/org/codemonkey/vesijama/Email.java
+END
+Recipient.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/22/LostFound/src/org/codemonkey/vesijama/Recipient.java
+END
+MailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/22/LostFound/src/org/codemonkey/vesijama/MailException.java
+END
+EmailValidationUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/22/LostFound/src/org/codemonkey/vesijama/EmailValidationUtil.java
+END
+Mailer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/22/LostFound/src/org/codemonkey/vesijama/Mailer.java
+END
+AttachmentResource.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/22/LostFound/src/org/codemonkey/vesijama/AttachmentResource.java
+END

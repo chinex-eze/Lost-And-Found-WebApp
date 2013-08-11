@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/ssl-test-certs
+END
+test-cert-store
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/ssl-test-certs/test-cert-store
+END
+server-cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/ssl-test-certs/server-cert.pem
+END
+ca-key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/ssl-test-certs/ca-key.pem
+END
+ca-cert.pem
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/ssl-test-certs/ca-cert.pem
+END
+server-req.pem
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/ssl-test-certs/server-req.pem
+END
+server-key.pem
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/testsuite/ssl-test-certs/server-key.pem
+END

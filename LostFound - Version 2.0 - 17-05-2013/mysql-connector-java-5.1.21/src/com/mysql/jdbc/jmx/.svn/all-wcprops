@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/jmx
+END
+LoadBalanceConnectionGroupManagerMBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManagerMBean.java
+END
+LoadBalanceConnectionGroupManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManager.java
+END

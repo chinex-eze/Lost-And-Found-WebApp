@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/configs
+END
+maxPerformance.properties
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/configs/maxPerformance.properties
+END
+clusterBase.properties
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/configs/clusterBase.properties
+END
+3-0-Compat.properties
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/configs/3-0-Compat.properties
+END
+coldFusion.properties
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/configs/coldFusion.properties
+END
+5-0-Compat.properties
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/configs/5-0-Compat.properties
+END
+solarisMaxPerformance.properties
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/configs/solarisMaxPerformance.properties
+END
+fullDebug.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/LostFound/mysql-connector-java-5.1.21/src/com/mysql/jdbc/configs/fullDebug.properties
+END
